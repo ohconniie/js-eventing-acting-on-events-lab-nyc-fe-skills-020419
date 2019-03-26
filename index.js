@@ -13,7 +13,7 @@ function onKeyDown(event) {
 
 function moveDodgerRight() {
   const currentPosition = parseInt(dodger.style.left)
-  if (currentPosition + 5 <= 400)
+  if (currentPosition + 5 <= 360)
   dodger.style.left = currentPosition + 5 +'px'
 }
 
